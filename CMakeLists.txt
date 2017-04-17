@@ -1,0 +1,8 @@
+add_subdirectory( CameraTools )
+add_subdirectory( IsosurfaceVisualization )
+add_subdirectory( PDBReader )
+add_subdirectory( DistanceMeasures )
+add_subdirectory( ScoringTools )
+add_subdirectory( TCKReader )
+add_subdirectory( ScoringMeasures )
+add_subdirectory( SpuriousFiberFilter )

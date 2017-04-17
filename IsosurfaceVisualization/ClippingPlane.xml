@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Material name="GLSLClippingPlane">
+  <Property name="Property1">
+    <Member name="DiffuseColor" number_of_elements="3" type="Double" value="1.0 0.5 0.5" />
+  </Property>
+<!-- //home//stephan//Research//Software//vISTe//src//smeesters//plugins//testing//smeesters//IsosurfaceVisualization//ClippingPlane.vert -->
+  <Shader scope="Vertex" name="GLSLClippingPlaneVertex" location="//home//stephan//Research//Software//vISTe//src//smeesters//plugins//testing//smeesters//IsosurfaceVisualization//ClippingPlane.vert" 
+    language="GLSL" entry="main">
+    <ApplicationUniform name="ClipX" value="ClipX"> </ApplicationUniform>
+	<ApplicationUniform name="ClipY" value="ClipY"> </ApplicationUniform>
+	<ApplicationUniform name="ClipZ" value="ClipZ"> </ApplicationUniform>
+  </Shader>
+  <Shader scope="Fragment" name="GLSLClippingPlaneFrag" location="//home//stephan//Research//Software//vISTe//src//smeesters//plugins//testing//smeesters//IsosurfaceVisualization//ClippingPlane.frag" 
+    language="GLSL" entry="main">
+	<LightUniform name="NumLights" value="NumberOfLights"/>
+  </Shader>
+</Material>

@@ -1,0 +1,13 @@
+
+
+
+   Determine correct scale for each window ----> ability to handle multiple types of spikes
+   
+   Clustering of spikes based on the h^2 profile ---> possible to use as regressors in the GLM
+   
+   Experiment with the window size ---> IED density function depends on window size
+   
+   ICA can be useful if the sources are independent
+			--> number of sources have to be estabilished beforehand
+			--> mainly been used for artefact removal
+			--> Independent Component Analysis makes several assumptions on the data - the source signals should be  spatially stable and temporally independent. These assumptions are not fully true for EEG as it contains patterns evolving in time and spreading in space. Despite of this violation, ICA has repeatedly been found to be able to separate meaningful components in the EEG signal. The results presented in this paper confirm the usefulness of ICA in the separation of EEG components.
